@@ -14,3 +14,13 @@ A Collection of all springboot 3 projects
 
 - Maven
   - command: mvn -version
+ 
+- Build project
+  -  mvn clean install
+ 
+- Verify jar is build under target folder
+  - ls target (for linux or max os)
+  - cd target (for windows)
+
+- Run application using command line
+  - java -jar .target/jarname.jar
